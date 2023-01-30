@@ -1,0 +1,8 @@
+enhancement:
+- all: ['!docs/*']
+
+documentation:
+- any: ['*.md', 'docs/*']
+
+ci/cd:
+- any: ['.github/workflows/*', 'action.yml']
